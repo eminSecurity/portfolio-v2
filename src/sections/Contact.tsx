@@ -26,11 +26,11 @@ export function Contact() {
           className="text-center mb-16"
         >
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-4">
-            Get In <span className="text-primary">Touch</span>
+            Kontakt
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4" />
           <p className="text-muted max-w-2xl mx-auto">
-            Open for opportunities in cybersecurity and development
+            Offen für Projekte in Cybersecurity und Entwicklung
           </p>
         </motion.div>
 
@@ -42,12 +42,14 @@ export function Contact() {
             viewport={{ once: true }}
           >
             <h3 className="font-orbitron text-2xl font-bold mb-6">
-              Let's Connect
+              Lass uns verbinden
             </h3>
             
             <p className="text-muted mb-8">
-              Whether you're looking for a security audit, need help with a project, 
-              or just want to chat about tech - I'm always interested in hearing about 
+              Ob du einen Security-Audit brauchst, Hilfe bei einem Projekt suchst 
+              oder einfach über Tech quatschen willst – ich freue mich immer über 
+              neue Herausforderungen und spannende Gespräche.
+            </p> 
               new opportunities and challenges.
             </p>
 
@@ -107,7 +109,7 @@ export function Contact() {
                   className="w-full px-4 py-3 bg-secondary border border-border rounded-lg 
                            focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary
                            text-white placeholder-muted transition-colors"
-                  placeholder="Your name"
+                  placeholder="Dein Name"
                   required
                 />
               </div>
@@ -124,7 +126,7 @@ export function Contact() {
                   className="w-full px-4 py-3 bg-secondary border border-border rounded-lg 
                            focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary
                            text-white placeholder-muted transition-colors"
-                  placeholder="your@email.com"
+                  placeholder="deine@email.de"
                   required
                 />
               </div>
@@ -141,7 +143,7 @@ export function Contact() {
                   className="w-full px-4 py-3 bg-secondary border border-border rounded-lg 
                            focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary
                            text-white placeholder-muted transition-colors resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Erzähl mir von deinem Projekt..."
                   required
                 />
               </div>
@@ -154,7 +156,7 @@ export function Contact() {
                          hover:scale-[1.02] active:scale-[0.98]"
               >
                 <Send className="w-5 h-5" />
-                Send Message
+                Nachricht senden
               </button>
             </form>
           </GlowCard>
@@ -165,7 +167,7 @@ export function Contact() {
       <footer className="mt-24 pt-8 border-t border-border">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-muted text-sm">
-            © 2024 <span className="text-primary">Emami</span>. Built with React + Tailwind + Framer Motion
+            © 2024 <span className="text-primary">Emami</span>. Entwickelt mit React + Tailwind + Framer Motion
           </p>
         </div>
       </footer>

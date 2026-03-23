@@ -8,10 +8,10 @@ export function Hero() {
       id="home" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden cyber-grid"
     >
-      {/* Background Gradient */}
+      <!-- Background Gradient -->
       <div className="absolute inset-0 bg-gradient-to-b from-secondary via-secondary to-surface" />
       
-      {/* Floating Elements */}
+      <!-- Floating Elements -->
       <div className="absolute top-1/4 left-10 w-2 h-2 bg-primary rounded-full animate-float opacity-60" />
       <div className="absolute top-1/3 right-20 w-3 h-3 bg-accent rounded-full animate-float opacity-40" style={{ animationDelay: '1s' }} />
       <div className="absolute bottom-1/3 left-1/4 w-2 h-2 bg-primary rounded-full animate-float opacity-50" style={{ animationDelay: '2s' }} />
@@ -59,14 +59,14 @@ export function Hero() {
                        hover:bg-primary/90 transition-all duration-300 hover:scale-105
                        animate-glow-pulse"
           >
-            View Projects
+            Projekte ansehen
           </a>
           <a
             href="#contact"
             className="px-8 py-3 border-2 border-primary text-primary font-semibold rounded-full 
                        hover:bg-primary hover:text-secondary transition-all duration-300"
           >
-            Contact Me
+            Kontakt
           </a>
         </motion.div>
 
@@ -96,7 +96,7 @@ export function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll Indicator */}
+      <!-- Scroll Indicator -->
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

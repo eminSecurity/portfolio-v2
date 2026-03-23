@@ -3,10 +3,10 @@ import { Award, Briefcase, Calendar, Code } from 'lucide-react';
 import { GlowCard } from '../components/GlowCard';
 
 const stats = [
-  { icon: Calendar, value: '3+', label: 'Years Experience' },
-  { icon: Briefcase, value: '10+', label: 'Projects Completed' },
-  { icon: Award, value: '5', label: 'CompTIA Certs' },
-  { icon: Code, value: '8+', label: 'Technologies' },
+  { icon: Calendar, value: '2024', label: 'Ausbildung FIAE' },
+  { icon: Briefcase, value: '5+', label: 'CompTIA Certs' },
+  { icon: Award, value: '8+', label: 'Technologien' },
+  { icon: Code, value: '∞', label: 'Learning Mode' },
 ];
 
 export function About() {
@@ -58,16 +58,18 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-lg text-muted leading-relaxed mb-6">
-              I'm a passionate <span className="text-primary">Fachinformatiker</span> specializing in 
-              cybersecurity and full-stack development. With my complete <span className="text-primary">CompTIA 
-              certification stack</span>, I bring both theoretical knowledge and practical experience 
-              to every project.
+              Ich bin <span className="text-primary">Abdi</span>, ausgebildeter Fachinformatiker für 
+              Anwendungsentwicklung mit Fokus auf <span className="text-primary">Cybersecurity</span>. 
+              Meine CompTIA-Zertifizierungen (Security+, Pentest+, Network+, Linux+, A+) bilden das Fundament 
+              für meine Arbeit in der IT-Sicherheit.
             </p>
             
             <p className="text-lg text-muted leading-relaxed mb-8">
-              My expertise spans from <span className="text-accent">penetration testing</span> and 
-              <span className="text-accent">network security</span> to building modern web applications 
-              with React and Kotlin. I'm particularly interested in IoT security and embedded systems.
+              Meine Stärken liegen in <span className="text-accent">Penetration Testing</span>, 
+              <span className="text-accent">Netzwerk-Sicherheit</span> und der Entwicklung moderner 
+              Web-Applikationen mit React und Kotlin. Besonders interessiere ich mich für 
+              IoT-Security und Embedded Systems – von ESP32 über Raspberry Pi bis zu sicheren 
+              Firmware-Lösungen.
             </p>
 
             {/* Stats Grid */}

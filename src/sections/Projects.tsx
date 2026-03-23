@@ -15,35 +15,41 @@ interface Project {
 const projects: Project[] = [
   {
     id: '1',
-    title: 'Security Audit Platform',
-    description: 'Automated vulnerability scanner with customizable reporting dashboards. Built for enterprise penetration testing workflows.',
-    tech: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker'],
-    github: '#',
-    demo: '#',
+    title: 'Kanban Board Pro',
+    description: 'Full-Stack Kanban-Board mit React, Node.js und MongoDB. Features: Drag-and-Drop, Real-time Updates, GitHub-Integration für automatische Ticket-Erstellung.',
+    tech: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Express'],
+    github: 'https://github.com/eminSecurity/kanban-board-pro',
     featured: true,
   },
   {
     id: '2',
-    title: 'IoT Device Manager',
-    description: 'Secure management platform for IoT devices with real-time monitoring and firmware updates.',
-    tech: ['Kotlin', 'Spring Boot', 'MQTT', 'InfluxDB'],
-    github: '#',
+    title: 'Portfolio V2',
+    description: 'Diese Portfolio-Website – Modernes React mit Cyberpunk-Gold Design, Framer Motion Animationen und voller Responsive-Unterstützung.',
+    tech: ['React', 'TypeScript', 'Tailwind', 'Framer Motion', 'Vite'],
+    github: 'https://github.com/eminSecurity/portfolio-v2',
+    demo: 'https://emami-114.github.io/portfolio-v2/',
     featured: true,
   },
   {
     id: '3',
-    title: 'Network Analyzer',
-    description: 'Wireshark-like packet analyzer built in Python with custom protocol detection.',
-    tech: ['Python', 'Scapy', 'PyQt5', 'SQLite'],
-    github: '#',
+    title: 'IoT Security Scanner',
+    description: 'Python-basiertes Tool zum Scannen von IoT-Geräten auf bekannte Schwachstellen. Nutzt Nmap und Metasploit-Module für automatisierte Tests.',
+    tech: ['Python', 'Nmap', 'Metasploit', 'SQLite', 'AsyncIO'],
+    github: 'https://github.com/eminSecurity/iot-security-scanner',
   },
   {
     id: '4',
-    title: 'Portfolio V2',
-    description: 'This portfolio website - Modern React application with cyberpunk design aesthetics.',
-    tech: ['React', 'TypeScript', 'Tailwind', 'Framer Motion'],
-    github: 'https://github.com/eminSecurity/portfolio-v2',
-    demo: 'https://emami-114.github.io/portfolio-v2/',
+    title: 'OpenClaw Agent Hub',
+    description: 'Multi-Agent System für automatisierte Software-Entwicklung mit KI-Agents (Kimi, Qwen, DeepSeek) – Von Planung bis Deployment.',
+    tech: ['TypeScript', 'Node.js', 'OpenAI API', 'Docker'],
+    github: 'https://github.com/eminSecurity/openclaw-agent-hub',
+  },
+  {
+    id: '5',
+    title: 'CompTIA Study App',
+    description: 'Lern-App für CompTIA-Zertifizierungen mit Quiz-Modus, Flashcards und Prüfungssimulation.',
+    tech: ['Kotlin', 'Android', 'Room DB', 'Material Design'],
+    github: 'https://github.com/eminSecurity/comptia-study-app',
   },
 ];
 
@@ -62,7 +68,7 @@ export function Projects() {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4" />
           <p className="text-muted max-w-2xl mx-auto">
-            A selection of my recent work in cybersecurity and development
+            Eine Auswahl meiner Projekte in Cybersecurity und Entwicklung
           </p>
         </motion.div>
 
@@ -133,7 +139,7 @@ export function Projects() {
                      rounded-full hover:bg-primary hover:text-secondary transition-all duration-300"
           >
             <Github className="w-5 h-5" />
-            View More on GitHub
+            Mehr auf GitHub
           </a>
         </motion.div>
       </div>

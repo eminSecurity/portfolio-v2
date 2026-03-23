@@ -39,7 +39,7 @@ export function Skills() {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4" />
           <p className="text-muted max-w-2xl mx-auto">
-            Technologies and tools I work with daily
+            Technologien und Tools, mit denen ich täglich arbeite
           </p>
         </motion.div>
 
@@ -48,7 +48,7 @@ export function Skills() {
           <GlowCard>
             <h3 className="font-orbitron text-2xl font-bold mb-8 flex items-center gap-3">
               <span className="w-3 h-3 bg-primary rounded-full"></span>
-              Programming Languages
+              Programmiersprachen
             </h3>
             
             <div className="space-y-5">
@@ -82,7 +82,7 @@ export function Skills() {
           <GlowCard delay={0.2}>
             <h3 className="font-orbitron text-2xl font-bold mb-8 flex items-center gap-3">
               <span className="w-3 h-3 bg-accent rounded-full"></span>
-              Tools & Technologies
+              Tools & Technologien
             </h3>
             
             <div className="flex flex-wrap gap-3">
@@ -105,12 +105,12 @@ export function Skills() {
 
             <div className="mt-8 pt-8 border-t border-border">
               <h4 className="font-orbitron text-lg font-semibold mb-4 text-accent">
-                Focus Areas
+                Schwerpunkte
               </h4>
               <ul className="space-y-2 text-muted">
                 {[
                   'Penetration Testing & Ethical Hacking',
-                  'Network Security & Infrastructure',
+                  'Netzwerk-Sicherheit & Infrastruktur',
                   'Web Application Security',
                   'IoT & Embedded Security',
                   'Secure Software Development',

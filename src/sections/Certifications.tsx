@@ -69,7 +69,7 @@ export function Certifications() {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4" />
           <p className="text-muted max-w-2xl mx-auto">
-            Professional certifications validating expertise in cybersecurity and IT
+            Professionelle Zertifizierungen, die meine Expertise in Cybersecurity und IT validieren
           </p>
         </motion.div>
 
@@ -124,7 +124,7 @@ export function Certifications() {
           className="mt-12 text-center"
         >
           <p className="text-muted text-sm">
-            * All certifications obtained in 2024 • <a href="#" className="text-primary hover:underline">View Credentials</a>
+            * Alle Zertifizierungen erhalten 2024 • <a href="#" className="text-primary hover:underline">Zertifikate ansehen</a>
           </p>
         </motion.div>
       </div>
