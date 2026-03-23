@@ -49,8 +49,6 @@ export function Contact() {
               Ob du einen Security-Audit brauchst, Hilfe bei einem Projekt suchst 
               oder einfach über Tech quatschen willst – ich freue mich immer über 
               neue Herausforderungen und spannende Gespräche.
-            </p> 
-              new opportunities and challenges.
             </p>
 
             <div className="space-y-4">
